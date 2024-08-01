@@ -1,10 +1,10 @@
 # Site settings
-name: name
+name: ITFails
 email: email
-url: url
+url: itfails.news
 description: "A blog"
 author: "FoxHustle"
-title: "ItFails"
+title: "ITFails"
 permalink: pretty
 baseurl: /
 
