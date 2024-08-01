@@ -9,12 +9,12 @@
         }
     ],
     "url_items": [{
-            "name": "Telegram",
-            "link": "t.me/portfolio/"
+            "icon": "telegram",
+            "link": "https://t.me/portfolio/"
         },
         {
-            "name": "Github",
-            "link": "github.com/Fox-Hustle"
+            "icon": "github",
+            "link": "https://github.com/Fox-Hustle"
         }
     ]
 }
