@@ -6,7 +6,7 @@ description: "A blog"
 author: "FoxHustle"
 title: "ItFails"
 permalink: pretty
-baseurl: /docs
+baseurl: /
 
 # social
 github:
