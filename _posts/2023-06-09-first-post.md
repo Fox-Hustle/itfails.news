@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hello World!"
-date: 2023-06-09 12:00:00 -0500
+title: "Crowdstrike"
+date: 2024-07-29 12:00:00 +0300
 ---
 
 Hey, it's my first post!
