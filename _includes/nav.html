@@ -9,16 +9,13 @@
         </div>
 
         <div class="nav-center">
-            <a class="nav-item" target="_blank" href="https://www.github.com/{{site.github.username}}/">
+            {% for item in site.data.nav.url_items %}
+              <a class="nav-item" target="_blank" href="{{ item.link | relative_url }}">
                 <span class="icon">
-                    <i class="fa fa-github"></i>
+                    <i class="fa {{item.icon}}"></i>
                 </span>
             </a>
-            <a class="nav-item" target="_blank" href="https://www.twitter.com/{{site.twitter.username}}/">
-                <span class="icon">
-                    <i class="fa fa-twitter"></i>
-                </span>
-            </a>
+            {% endfor %}
         </div>
 
         <span class="nav-toggle">

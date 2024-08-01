@@ -7,5 +7,14 @@
             "name": "About",
             "link": "/about/"
         }
+    ],
+    "url_items": [{
+            "name": "Telegram",
+            "link": "t.me/portfolio/"
+        },
+        {
+            "name": "Github",
+            "link": "github.com/Fox-Hustle"
+        }
     ]
 }
