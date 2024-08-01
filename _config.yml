@@ -2,11 +2,11 @@
 name: name
 email: email
 url: url
-description: "A blog and a portfolio"
-author: "author"
-title: "BlogFolio"
+description: "A blog"
+author: "FoxHustle"
+title: "ItFails"
 permalink: pretty
-baseurl: /jekyll-theme-blogfolio
+baseurl: /docs
 
 # social
 github:
