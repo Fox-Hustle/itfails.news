@@ -1,7 +1,7 @@
 # Site settings
 name: ITFails
 email: email
-url: itfails.news
+url: "https://itfails.news"
 description: "A blog"
 author: "FoxHustle"
 title: "ITFails"
