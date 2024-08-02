@@ -7,7 +7,9 @@ author: "FoxHustle"
 title: "ITFails"
 permalink: pretty
 baseurl: /
-
+plugins:
+  - jekyll-news-sitemap
+  
 # social
 github:
   username: username
