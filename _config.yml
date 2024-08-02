@@ -11,9 +11,7 @@ plugins:
   - jekyll-news-sitemap
   - jekyll-analytics
   
-# social
-github:
-  username: username
-
-twitter:
-  username: username
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: G-54TL2L5LLG          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
