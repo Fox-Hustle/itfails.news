@@ -8,7 +8,7 @@ title: "ITFails"
 permalink: pretty
 baseurl: /
 plugins:
-  - jekyll-sitemap
+  - jekyll-news-sitemap
   
 # social
 github:
