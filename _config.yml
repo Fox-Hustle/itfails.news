@@ -9,6 +9,7 @@ permalink: pretty
 baseurl: /
 plugins:
   - jekyll-news-sitemap
+  - jekyll-analytics
   
 # social
 github:
