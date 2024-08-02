@@ -6,5 +6,3 @@ group :jekyll_plugins do
 end
 
 gem 'jekyll-news-sitemap'
-gem 'jekyll-analytics'
-
