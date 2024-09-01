@@ -6,6 +6,7 @@ description: "A blog"
 author: "FoxHustle"
 title: "ITFails"
 permalink: pretty
+paginate: 5
 baseurl: /
 plugins:
   - jekyll-news-sitemap
