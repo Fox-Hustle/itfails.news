@@ -6,7 +6,14 @@ description: "A blog about IT failures."
 author: "FoxHustle"
 title: "ITFails"
 permalink: pretty
-paginate: 5
+# Pagination Settings for jekyll-paginate-v2
+pagination:
+  enabled: true
+  per_page: 5               # Posts per page
+  permalink: "/page/:num/"  # Permalink structure for paginated pages
+  title: ":title - page :num"
+  limit: 0                  # Set a limit to pagination (0 for no limit)
+  
 baseurl: /
 plugins:
   - jekyll-seo-tag           # SEO metadata
