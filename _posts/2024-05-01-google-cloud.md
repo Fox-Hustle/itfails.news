@@ -1,18 +1,20 @@
 ---
 layout: post
-title: "Google Cloud Account Deletion Incident (2024)"
+title: "Google Cloud Account Deletion Incident – May 2024"
 date: 2024-05-01
 ---
 
-### Issue Overview
-In May 2024, Google Cloud faced a significant incident where a customerвЂ™s account was accidentally deleted, leading to two weeks of downtime. The error, caused by an internal process mistake, resulted in the loss of access to critical services and data for the affected customer. This incident highlighted the risks associated with centralized cloud services and the potential catastrophic impact of operational errors on business continuity.
+### Overview
+In May 2024, Google Cloud experienced a major incident where a customer’s account was inadvertently deleted due to an internal process error. This mistake resulted in a significant disruption, leading to two weeks of downtime for the affected customer. Critical services and data were lost, with Google Cloud scrambling to recover the account. The incident highlighted the risks of centralized cloud infrastructures and raised concerns about the potential consequences of operational errors on business continuity.
 
-_Source: [Ars Technica](https://arstechnica.com/gadgets/2024/05/google-cloud-accidentally-nukes-customer-account-causes-two-weeks-of-downtime/)_
+### Technical Details
+The root cause of the incident was traced back to an erroneous internal process, where the account was accidentally marked for deletion. Despite the implementation of several safeguards, the error was able to slip through. Google Cloud acknowledged the incident, and the affected customer was without service for 14 days as recovery efforts were underway.
 
-### Blockchain and Decentralization Mitigation
-Implementing a decentralized approach using blockchain technology could prevent such incidents from causing widespread damage. By distributing data and account management across a blockchain network, the risk of a single point of failureвЂ”such as the accidental deletion of an entire accountвЂ”would be greatly reduced. Each part of the account's data and services could be redundantly stored across multiple nodes, ensuring that even if an error occurred, the data and services could be quickly restored from other parts of the network, minimizing downtime.
+### Impact
+- **Service Disruption**: The customer lost access to all Google Cloud services, impacting key business operations.
+- **Data Loss**: Although Google eventually restored most of the services, the two-week downtime led to significant business losses.
+- **Reputation Damage**: This event sparked widespread criticism about the reliability of centralized cloud services.
 
-### DeCC (TEE) Enhancement
-Integrating Trusted Execution Environments (TEEs) within the cloud infrastructure could enhance security and data integrity. TEEs would ensure that critical account operations, such as deletions or modifications, are processed securely within isolated environments, reducing the likelihood of human error or unauthorized actions impacting the entire account. By combining TEEs with blockchain, cloud service providers like Google could ensure that even if an operational mistake occurs, the impact is contained, and services can continue with minimal disruption.
+**Source**: [Ars Technica](https://arstechnica.com/gadgets/2024/05/google-cloud-accidentally-nukes-customer-account-causes-two-weeks-of-downtime/)
 
 ---
