@@ -16,6 +16,7 @@ plugins:
   - jekyll-paginate-v2       # Improved pagination
   - jekyll-analytics         # Google Analytics integration
   - jekyll-algolia           # Algolia search integration
+  - jekyll-paginate
 
 # SEO Settings
 seo:
