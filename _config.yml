@@ -2,11 +2,36 @@
 name: ITFails
 email: email
 url: "https://itfails.news"
-description: "A blog"
+description: "A blog about IT failures."
 author: "FoxHustle"
 title: "ITFails"
 permalink: pretty
 paginate: 5
 baseurl: /
 plugins:
-  - jekyll-news-sitemap
+  - jekyll-seo-tag           # SEO metadata
+  - jekyll-sitemap           # Sitemap generation
+  - jekyll-feed              # RSS feed for posts
+  - jekyll-news-sitemap      # News sitemap for Google News
+  - jekyll-paginate-v2       # Improved pagination
+  - jekyll-analytics         # Google Analytics integration
+  - jekyll-algolia           # Algolia search integration
+
+# SEO Settings
+seo:
+  title: "ITFails"
+  description: "Discover all IT mishaps on ITFails."
+  twitter:
+    username: "FoxHustle"
+  facebook:
+    admins: "your_facebook_id"
+  url: "https://itfails.news"
+
+# Analytics (Optional, if you want to use Google Analytics)
+google_analytics: "UA-XXXXX-Y"  # Replace with your Google Analytics tracking ID
+
+# Sitemap settings
+sitemap:
+  filename: "sitemap.xml"
+  changefreq: "weekly"
+  priority: "1.0"
