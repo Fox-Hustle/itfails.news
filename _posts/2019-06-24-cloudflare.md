@@ -19,4 +19,4 @@ This incident highlighted the fragility of the internet’s routing system and t
 
 **Sources**:
 - [ThousandEyes](https://www.thousandeyes.com/blog/biggest-internet-outages-2019)
-- [World Economic Forum](https://www.weforum.org)
+- [World Economic Forum](https://www.weforum.org/agenda/2019/06/the-internet-crashes-thousands-of-times-a-year-and-no-one-is-making-it-stronger)
